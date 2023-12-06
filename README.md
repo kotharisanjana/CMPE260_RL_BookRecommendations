@@ -1,11 +1,7 @@
 # CMPE260_RL_BookRecommendations
 
 ## Deep Reinforcement Learning based Recommendation System
-Recommendation systems play a pivotal role in any content based industry. A variety of techniques like collaborative filtering, matrix factorization based methods etc have been used. However there are two prevalent challenges:
-1. The dynamic interaction between users and recommender systems is ignored  and recommendation is seen as a static activity.
-2. They ignore the long-term advantages in favour of focusing primarily on the instant reaction from recommended items.
-
-We tackle these challenges by modeling the user interactions with the system by treating recommendation as sequential decision making process. We use Actor-critic reinforcement technique, hence taking into account the long term benefits and dynamic adaptation.
+Develop a reinforcement learning-based book recommendation system that employs deep deterministic policy gradients. The system should effectively leverage actor-critic networks to dynamically adapt to user preferences, optimizing recommendations through continuous interactions. Implement exploration-exploitation strategies like Gaussian and Ornstein-Uhlenbeck noise to fine-tune the policy, ensuring personalized and evolving book suggestions for users. The qualitative evaluation will gauge the efficacy of book recommendations by assessing their alignment with users' past interactions, considering factors such as genre, language, and the book's status as a best seller. 
 
 #### Dataset
 This system recommends books to user based on the user's past interactions (ratings) with books. 
